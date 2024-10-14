@@ -1,14 +1,14 @@
 
 package com.GoodNeighbour.model;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 @Entity
 public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private entityIdType id;
+    private Long id;
 
     @Column(nullable = false)
     private String email;
@@ -19,11 +19,11 @@ public class User {
     public User() {
     }
 
-    public entityIdType getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(entityIdType id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
