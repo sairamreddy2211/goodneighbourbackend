@@ -1,4 +1,4 @@
-package com.GoodNeighbour.Repository;
+package com.GoodNeighbour.repository;
 
 import com.GoodNeighbour.model.*;
 import org.springframework.data.jpa.repository.JpaRepository;
