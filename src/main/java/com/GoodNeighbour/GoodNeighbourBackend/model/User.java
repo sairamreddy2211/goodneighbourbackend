@@ -1,5 +1,5 @@
 
-package com.GoodNeighbour.GoodNeighbourBackend.model;
+package com.GoodNeighbour.goodneighbourbackend.model;
 
 import jakarta.persistence.*;
 

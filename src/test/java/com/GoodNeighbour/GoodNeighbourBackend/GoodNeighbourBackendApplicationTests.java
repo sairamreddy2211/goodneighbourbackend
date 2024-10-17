@@ -1,10 +1,10 @@
-package com.GoodNeighbour.GoodNeighbourBackend;
+package com.GoodNeighbour.goodneighbourbackend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class GoodNeighbourBackendApplicationTests {
+class goodneighbourbackendApplicationTests {
 
 	@Test
 	void contextLoads() {

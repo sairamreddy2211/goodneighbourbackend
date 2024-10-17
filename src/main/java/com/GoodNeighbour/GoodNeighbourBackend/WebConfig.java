@@ -1,4 +1,4 @@
-package com.GoodNeighbour.GoodNeighbourBackend;
+package com.GoodNeighbour.goodneighbourbackend;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;

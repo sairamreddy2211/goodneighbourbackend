@@ -1,13 +1,13 @@
-package com.GoodNeighbour.GoodNeighbourBackend;
+package com.GoodNeighbour.goodneighbourbackend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class GoodNeighbourBackendApplication {
+public class goodneighbourbackendApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(GoodNeighbourBackendApplication.class, args);
+		SpringApplication.run(goodneighbourbackendApplication.class, args);
 	}
 
 }

@@ -1,6 +1,6 @@
-package com.GoodNeighbour.GoodNeighbourBackend.repository;
+package com.GoodNeighbour.goodneighbourbackend.repository;
 
-import com.GoodNeighbour.GoodNeighbourBackend.model.User;
+import com.GoodNeighbour.goodneighbourbackend.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
