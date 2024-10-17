@@ -52,6 +52,10 @@ jobs:
         run: |
           docker build -t ghcr.io/${{ github.repository }}/goodneighbourbackend:latest .
           docker push ghcr.io/${{ github.repository }}/goodneighbourbackend:latest
+      - name: Install Docker Compose  # Install Docker Compose
+        run: |
+          sudo apt-get update
+          sudo apt-get install docker-compose -y
 
       - name: Deploy Docker Compose
         run: |
