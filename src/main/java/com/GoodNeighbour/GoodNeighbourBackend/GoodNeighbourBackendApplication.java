@@ -1,4 +1,4 @@
-package com.GoodNeighbour.goodneighbourbackend;
+package com.goodneighbour.goodneighbourbackend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

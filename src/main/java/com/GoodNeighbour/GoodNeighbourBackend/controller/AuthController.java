@@ -1,11 +1,11 @@
-package com.GoodNeighbour.goodneighbourbackend.controller;
+package com.goodneighbour.goodneighbourbackend.controller;
 
 
 import org.springframework.web.bind.annotation.*;
 import org.springframework.beans.factory.annotation.*;
-import com.GoodNeighbour.goodneighbourbackend.dto.*;
-import com.GoodNeighbour.goodneighbourbackend.model.*;
-import com.GoodNeighbour.goodneighbourbackend.repository.UserRepository;
+import com.goodneighbour.goodneighbourbackend.dto.*;
+import com.goodneighbour.goodneighbourbackend.model.*;
+import com.goodneighbour.goodneighbourbackend.repository.UserRepository;
 
 @RestController
 public class AuthController {

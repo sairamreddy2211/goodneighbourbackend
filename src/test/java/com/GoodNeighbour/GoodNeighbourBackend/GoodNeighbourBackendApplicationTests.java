@@ -1,4 +1,4 @@
-package com.GoodNeighbour.goodneighbourbackend;
+package com.goodneighbour.goodneighbourbackend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
