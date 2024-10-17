@@ -1,4 +1,4 @@
-package com.GoodNeighbour.dto;
+package com.GoodNeighbour.GoodNeighbourBackend.dto;
 
 public class LoginRequestDTO {
 
