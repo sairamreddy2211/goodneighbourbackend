@@ -60,3 +60,37 @@ jobs:
       - name: Deploy Docker Compose
         run: |
           docker-compose -f docker-compose.yml up -d
+
+# name: Build and Deploy Docker Containers
+
+# on:
+#   push:
+#     branches:
+#       - main
+
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+
+#     steps:
+#       - name: Checkout the repository
+#         uses: actions/checkout@v2
+
+#       - name: Build Docker image for Spring Boot app
+#         run: |
+#           docker build -t ghcr.io/${{ github.repository }}/goodneighbourbackend:latest .
+
+#       - name: Push Docker image to GitHub Container Registry
+#         run: |
+#           docker push ghcr.io/${{ github.repository }}/goodneighbourbackend:latest
+
+#       - name: SSH into server and deploy
+#         uses: appleboy/ssh-action@v0.1.0
+#         with:
+#           host: ${{ secrets.SERVER_IP }}  # Your server's IP
+#           username: ${{ secrets.SERVER_USER }}  # Your SSH username
+#           key: ${{ secrets.SERVER_SSH_KEY }}  # Your SSH private key
+#           script: |
+#             cd /path/to/your/app
+#             docker-compose pull  # Pull the latest image
+#             docker-compose up -d  # Start the containers
